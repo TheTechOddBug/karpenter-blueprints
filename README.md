@@ -166,6 +166,7 @@ Here's the list of blueprints we have so far:
 | [Customizing nodes with your own User Data automation](/blueprints/userdata/) | ✅ | ❌ |
 | [Protecting batch jobs during the consolidation process](/blueprints/batch-jobs/) | ✅ | ✅ |
 | [NodePool Disruption Budgets](/blueprints/disruption-budgets/) | ✅ | ✅ |
+| [Balanced Consolidation Policy](/blueprints/balanced-consolidation/) | ✅ | ❌ |
 | [Deploy an NVIDIA GPU workload](/blueprints/nvidia-gpu-workload/) | ✅ | ✅ |
 | [Accelerating image pull time using SOCI parallel mode](/blueprints/soci-snapshotter/) | ✅ | ✅ |
 | [Reserve node capacity for spiky workloads](/blueprints/node-reserved-headroom/) | ✅ | ✅ |
@@ -183,7 +184,7 @@ The following table describes the list of resources along with the versions wher
 | Resources/Tool  | Version             |
 | --------------- | ------------------- |
 | [Kubernetes](https://kubernetes.io/releases/)      | 1.34                |
-| [Karpenter](https://github.com/aws/karpenter/releases)       | v1.8.3            |
+| [Karpenter](https://github.com/aws/karpenter/releases)       | v1.14.0           |
 | [Terraform](https://github.com/hashicorp/terraform/releases)       | v1.14.2            |
 | [AWS EKS](https://github.com/terraform-aws-modules/terraform-aws-eks/releases)  | v21.10.1             |
 | [EKS Blueprints Addons](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons/releases)  | v1.22.0              |
